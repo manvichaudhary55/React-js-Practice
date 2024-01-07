@@ -6,10 +6,16 @@ function App() {
   // let counter = 15
 
   let addVal =()=>{
-    setCounter(counter+1 )
+    if(counter<20){
+      setCounter(counter+1 )
+    }
+    
   }
   let decVal =()=>{
-    setCounter(counter-1)
+    if(counter>0){
+      setCounter(counter-1)
+    }
+    
   }
   return (
     
