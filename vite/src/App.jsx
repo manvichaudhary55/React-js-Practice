@@ -3,13 +3,35 @@
 import { useState } from "react"
 function App() {
   let [counter,setCounter] = useState(15)
+  // const [counter,setCounter] = useState(15)
+  // Is an array so doesn't make any difference 
   // let counter = 15
 
   let addVal =()=>{
-    setCounter(counter+1 )
+    if(counter<20){
+      setCounter(counter+1 )
+
+      //Question
+      // setCounter(counter+1 )
+      // setCounter(counter+1 )
+      // setCounter(counter+1 )
+      // setCounter(counter+1 )
+      // Will only update value once because of fibre concept which will bundle all thes calls.
+
+      //Instead use approach
+      //setCounter((prevCounter)=>PrevCounter+1)
+      //setCounter((prevCounter)=>PrevCounter+1)
+      //setCounter((prevCounter)=>PrevCounter+1)
+      //setCounter((prevCounter)=>PrevCounter+1)
+      //Now it is updating value previous state by 2 everytime  
+    }
+    
   }
   let decVal =()=>{
-    setCounter(counter-1)
+    if(counter>0){
+      setCounter(counter-1)
+    }
+    
   }
   return (
     
