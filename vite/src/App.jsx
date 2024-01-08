@@ -10,6 +10,7 @@ function App() {
   let addVal =()=>{
     if(counter<20){
       setCounter(counter+1 )
+<<<<<<< HEAD
 
       //Question
       // setCounter(counter+1 )
@@ -24,6 +25,8 @@ function App() {
       //setCounter((prevCounter)=>PrevCounter+1)
       //setCounter((prevCounter)=>PrevCounter+1)
       //Now it is updating value previous state by 2 everytime  
+=======
+>>>>>>> e0c5fc8fb48cacb263069b817e499791c597f77a
     }
     
   }
