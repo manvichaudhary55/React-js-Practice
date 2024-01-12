@@ -15,7 +15,7 @@ function App() {
     <>
       <Card username="Manvi" btnVal="View profile"/>
       <Card username="Naina " btnVal="Open profile" obj={newObj} arr ={newArr}/>
-      {/* All these comes in the form of object key and values */}
+      {/* All these comes in the form of object key and values for object props */}
     </>
   )
 }
