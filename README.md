@@ -34,3 +34,8 @@ https://www.devui.io/
 #Props 
 https://www.devui.io/
 >>>>>>> e0c5fc8fb48cacb263069b817e499791c597f77a
+
+#Redux-toolkit 
+npm install @reduxjs/toolkit
+npm install redux
+
