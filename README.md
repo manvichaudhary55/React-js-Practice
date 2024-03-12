@@ -39,3 +39,13 @@ https://www.devui.io/
 npm install @reduxjs/toolkit
 npm install redux
 
+note :hadndeling events
+example ) onclick : 
+<button onClick={activateLasers}>
+  Activate Lasers
+</button>
+2) MAP mei jab div return karna hai toh bracket () mei karo 
+
+
+todo = practice axios and fetch 
+
